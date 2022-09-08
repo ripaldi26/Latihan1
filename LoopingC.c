@@ -7,5 +7,6 @@ int i = 0;
   printf( "Belajar Koding di Kelas Algoritma\n",i);
     i++;
   }while(i < 5);
-   
+  
+   return 0;
 }
