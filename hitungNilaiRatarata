@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+char nama[20]; 
+int nilai1, nilai2, nilai3,rataRata;
+cout << "   Nama Siswa  = ";
+cin >> nama;
+cout << "   Nilai pertandingan I   = ";
+cin >> nilai1 ;
+cout << "   Nilai pertandingan II  = ";
+cin >> nilai2;
+cout << "   Nilai pertandingan III = ";
+cin >> nilai3;  
+
+rataRata = (nilai1 + nilai2 + nilai3) / 3;
+
+cout << "\n Siswa yang bernama " << nama <<endl;
+cout << " Memperoleh nilai rata-rata " << rataRata << " dari hasil perlombaan yang diikutinya \n\n" << endl ;
+if (rataRata >= 85){
+  cout << " hadiah yang didapat adalah komputer Core i5 " <<endl;
+  }else if(rataRata >= 70){
+  cout << " hadiah yang didapat adalah uang sebesar Rp 2.500.000 "<< endl ;
+  }else 
+  cout << " hadiah yang didapat adalah hiburan" << endl;
+  
+}
