@@ -21,7 +21,7 @@ if (rataRata >= 85){
   cout << " hadiah yang didapat adalah komputer Core i5 " <<endl;
   }else if(rataRata >= 70){
   cout << " hadiah yang didapat adalah uang sebesar Rp 2.500.000 "<< endl ;
-  }else 
+  }else if(rataRata < 70){
   cout << " hadiah yang didapat adalah hiburan" << endl;
-  
+  }
 }
