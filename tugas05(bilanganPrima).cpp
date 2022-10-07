@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 
-  int nilai,count=0;
+  int nilai,z = 0;
   
   cout<<"masukkan nilai dari 0 - 100 : ";
   cin>>nilai;
@@ -14,16 +14,16 @@ int main()
     cout<<"Bukan termasuk bilangan prima \n";
   }
   else{
-     for (int i=2;i<nilai;i++ )
+     for (int c=2;c<nilai;c++ )
     {
   
-      if(nilai%i==0)
+      if(nilai%c==0)
       {
-         count++;
+         z++;
       }
     }
 
-    if(count ==0 )
+    if(z == 0 )
     {
       cout<<"Termasuk Bilangan prima \n";
     }
