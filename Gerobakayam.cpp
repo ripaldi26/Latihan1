@@ -36,41 +36,37 @@ int main() {
   for (int b = 1; b <= bj; b++) {
     cout << b;
     cout << "\t\t ";
-
     if (jp == 'd' || jp == 'D') {
       cout << "Dada\t\t Rp." << dada;
       cout << "\t\t" << bp;
       cout << "\t\tRp." << jhdada << endl;
-   
-    } else if (jp == 'p' || jp == 'P') {
-      cout << "Paha\t\t Rp." << paha;
-      cout << "\t\t" << bp;
-      cout << "\t\tRp." << jhpaha << endl;
-  
-    } else if (jp == 's' || jp == 'S') {
-      cout << "Sayap\t\t Rp." << sayap;
-      cout << "\t\t" << bp;
-      cout << "\t\tRp." << jhsayap << endl;
-  }
-    if(jp == 'd' || jp == 'D'){
-   cout << "------------------------------------------------------" << endl;
+      cout << "------------------------------------------------------" << endl;
       cout << "\t\t\t\t\tJumlah bayar : Rp. " << jhdada << endl;
       cout << "\t\t\t\t\tPajak 10%    : Rp. " << pjkdada << endl;
       cout << "\t\t\t\t\tTotal bayar  : Rp. " << tbdada << endl;
       cout << "------------------------------------------------------" << endl;
-      }else if(jp == 'p' || jp == 'P'){
+
+    } else if (jp == 'p' || jp == 'P') {
+      cout << "Paha\t\t Rp." << paha;
+      cout << "\t\t" << bp;
+      cout << "\t\tRp." << jhpaha << endl;
       cout << "------------------------------------------------------" << endl;
       cout << "\t\t\t\t\tJumlah bayar : Rp. " << jhpaha << endl;
       cout << "\t\t\t\t\tPajak 10%    : Rp. " << pjkpaha << endl;
       cout << "\t\t\t\t\tTotal bayar  : Rp. " << tbpaha << endl;
       cout << "------------------------------------------------------" << endl;
-      }else if(jp == 's' || jp == 'S'){
+
+    } else if (jp == 's' || jp == 'S') {
+      cout << "Sayap\t\t Rp." << sayap;
+      cout << "\t\t" << bp;
+      cout << "\t\tRp." << jhsayap << endl;
       cout << "------------------------------------------------------" << endl;
       cout << "\t\t\t\t\tJumlah bayar : Rp. " << jhsayap << endl;
       cout << "\t\t\t\t\tPajak 10%    : Rp. " << pjksayap << endl;
       cout << "\t\t\t\t\tTotal bayar  : Rp. " << tbsayap << endl;
       cout << "------------------------------------------------------" << endl;
-      }
-  return 0;
-}
+    }
+
+    return 0;
   }
+}
