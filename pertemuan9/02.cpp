@@ -3,11 +3,11 @@
 using namespace std; //perintah ini digunakan untuk mendeklarasikan/ memberitahukan kepada compiler bahwa kita akan menggunakan semua fungsi/class/file yang terdapat
 //dalam namespace std dan juga agar tidak mengetik std:: secara berulang
 
-int hargaSetelahPajak(int hargaDasar) // ini adalah fungsi dengan nama hargaSetelahpajak dan parameter hargaDasar
+int hargaSetelahPajak(int hargaDasar) // ini adalah deklarasi fungsi dengan nama hargaSetelahpajak dan parameter hargaDasar
 
 { //dimulainya program fungsi
   
-return hargaDasar + (hargaDasar * 10/100); // untuk mengembalikkan nilai hargaDasar
+return hargaDasar + (hargaDasar * 10/100); // untuk mengembalikkan nilai hargaDasar + hargaDasar *10/100
   
 }// berakhirnya program fungsi
 
